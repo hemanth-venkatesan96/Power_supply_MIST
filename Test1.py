@@ -3,7 +3,7 @@ from serial import Serial # pySerial = USB Serial port library
 from tkinter import *   # Tkinter = GUI library, importing the entire library with *
 
 import serial.tools.list_ports
-#import pyvisa
+import pyvisa
 import matplotlib.pyplot as plt
 
 import time # Time module to keep track of time
